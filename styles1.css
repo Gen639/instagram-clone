@@ -7,31 +7,25 @@
    color: var(--Black, #262626);
 }
 .body-main {
+   width: 935x;
 }
 
 .flex-container {
    display: flex;
 }
 
-.vertical-flex {
+/* Navigation block */
+.nav-main {
    flex-direction: column;
+   margin-left: 12.96875%;
+   background-color: #fff;
 }
 
-/* Navigation block */
 nav {
    width: 244px;
    height: auto;
    flex-shrink: 0;
-   background-color: rgb(216, 202, 76);
 }
-
-nav img.logo {
-   width: 103px;
-   height: 29px;
-   flex-shrink: 0;
-   margin: 40px 117px 40px 24px;
-}
-
 .nav-menu {
    display: inline-flex;
    padding: 4px 0px;
@@ -41,7 +35,12 @@ nav img.logo {
    align-items: flex-start;
    width: 220px;
    gap: 8px;
-   background-color: aliceblue;
+}
+nav img.logo {
+   width: 103px;
+   height: 29px;
+   flex-shrink: 0;
+   margin: 40px 117px 40px 24px;
 }
 
 .nav-div {
@@ -79,7 +78,6 @@ header {
    display: flex;
    padding: 73px 0px 44px 0px;
    align-items: flex-start;
-   background-color: brown;
 }
 
 /* Profile pic styling */
@@ -109,7 +107,6 @@ header img {
 
 .profile.flex-container > p {
    padding: 4px 0px;
-   background-color: blue;
    font-size: 28px;
    font-style: normal;
    font-weight: 350;
@@ -166,16 +163,15 @@ img[src="images/icons/User-Profile/More.svg"] {
    padding-right: 40px;
    border: none;
    border-radius: 0;
-
    font-size: 16px;
    font-style: normal;
    font-weight: 400;
    line-height: 18px;
+   background-color: #fff;
 }
 
 .tag button span {
    color: var(--Black, #262626);
-
    font-size: 16px;
    font-style: normal;
    font-weight: 600;
@@ -195,7 +191,6 @@ img[src="images/icons/User-Profile/More.svg"] {
    display: flex;
    padding: 0px 0px 44px 48px;
    align-items: flex-start;
-   background-color: rgb(23, 59, 83);
 }
 
 .strories-component {
@@ -241,7 +236,6 @@ img[src="images/icons/User-Profile/More.svg"] {
    width: 935px;
    height: 53px;
    flex-shrink: 0;
-   background-color: rgb(164, 90, 233);
    border-top: 1px solid #dbdbdb;
 }
 .toggle-container {
@@ -254,6 +248,7 @@ img[src="images/icons/User-Profile/More.svg"] {
    align-items: center;
    border: none;
    border-radius: 0;
+   background-color: #fff;
 }
 .toggle-button p {
    color: var(--Gray, #8e8e8e);
@@ -296,7 +291,6 @@ img[src="images/icons/User-Profile/More.svg"] {
    justify-content: center;
    align-items: flex-start;
    flex-shrink: 0;
-   background-color: rgb(68, 68, 52);
    gap: 28px;
 }
 
@@ -327,8 +321,6 @@ footer {
    padding: 24px 0px 52px 0px;
    justify-content: center;
    align-items: flex-start;
-   gap: 10px;
-   background-color: rgb(62, 48, 194);
 }
 .footer-content {
    display: flex;
@@ -336,7 +328,6 @@ footer {
    align-items: center;
    width: 662px;
    height: 58px;
-   background-color: beige;
 }
 
 .footer-content p {
